@@ -2,37 +2,176 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 94vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  color: #ff4b44;
+  font-style: italic;
+  font-family: Vegan Style Personal Use;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  backdrop-filter: blur(7px);
+  align-self: start;
+  margin: 1rem;
+  padding-left: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body-out {
+  min-height: 80vh;
+  width: 100%;
+  background-image: url(cook-art.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 22%;
+}
+
+.body-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 96px;
+  margin-top: 5%;
+}
+
+.feed-me-button {
+  background: #285dfd;
+  border-radius: 5px;
+  border-style: none;
+  padding: 1rem;
+  width: 15rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.body-in {
+  background-image: url(uber-eats.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 15%;
+  margin-left: 3rem;
+}
+
+.bod {
+  background-image: url(cooking.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 18%;
+  margin-right: 3rem;
+}
+
+.meal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 22px;
+}
+
+.meal-header {
+  display: flex;
+}
+
+.food-image {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.left-col {
+  flex: 1;
+}
+
+.right-col {
+  flex: 2;
+  padding: 1rem;
+}
+
+.food-name {
+  text-align: left;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.instructions {
+  text-align: justify;
+}
+
+.ingredients {
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.cct {
+  padding-bottom: 1rem;
+}
+
+.cct-heading {
+  display: inline;
+}
+
+.video-heading {
+  margin-left: 1rem;
+}
+
+.video-frame {
+  margin: 1rem;
+  text-align: center;
+}
+
+.button-align {
+  padding-bottom: 4rem;
+  align-self: center;
+  
+  width: 100%;
+}
+
+.uber-eats-button {
+  background: #233a49;
+  border-radius: 5px;
+  border-style: none;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 20rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: #ff4b44;
+  width: 100%;
+  height: 3rem;
+  align-self: flex-end;
+}
+
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  text-align: left;
+  padding-left: 3rem;
+  padding-top: 0.75rem;
 }
